@@ -1,2 +1,7 @@
+print("olá mundo")
 nome = input("Qual seu nome? ")
-print(f"Seja Bem vindo ao Python! {nome}")
+dia = input("Qual o dia de seu nascimento? ")
+mes = input("Qual o mês de seu nascimento? ")
+ano = input("Qual o ano de seu nascimento? ")
+print(f"Seja Bem vindo ao Python! {nome} ")
+print(f"Seu nome é: {nome},e você nasceu dia {dia} de {mes} de {ano}")
