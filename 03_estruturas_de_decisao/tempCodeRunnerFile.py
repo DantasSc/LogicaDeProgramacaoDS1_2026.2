@@ -1,4 +1,3 @@
-"""
 EXERCÍCIO 01: Imposto de Renda de Lisarb
 Disciplina: Lógica de Programação com Python
 

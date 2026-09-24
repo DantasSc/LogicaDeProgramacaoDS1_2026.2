@@ -17,9 +17,9 @@ ingresso_base = 100
 if idade<12 :
     infantil = ingresso_base - (ingresso_base*0.5)
     print(f"O seu ingresso é o Infantil e o valor é:R${infantil}")
-elif idade>=60 :
-    melhor_idade = "Gratuito"
-    print(f"O seu ingresso é o Melhor Idade e o valor Idade é:{melhor_idade}")
+elif idade >= 60:
+    melhor_idade = 0
+    print(f"O seu ingresso é o Melhor Idade e o valor é: R${melhor_idade:.2f}")
 else:
     integral = ingresso_base
     print(f"O Seu ingresso é o Integral e o valor do seu ingresso é:R${integral}")

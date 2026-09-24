@@ -15,7 +15,7 @@ valor_a = float(input("digite o primeiro valor(A): "))
 valor_b = float(input("digite o segundo valor(B): "))
 valor_c = float(input("digite o terceiro valor(C): "))
 delta = (valor_b**2)-(4*valor_a*valor_c)
-if delta<0 or valor_a<0:
+if delta<0 or valor_a==0:
     print("Impossivel calcular")
 else:
     bhaskara_r1 = (-valor_b + math.sqrt(delta))/(2*valor_a)

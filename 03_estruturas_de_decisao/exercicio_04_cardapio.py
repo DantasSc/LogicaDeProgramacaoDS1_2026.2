@@ -25,8 +25,6 @@ refrigerante = 1.50
 if codigo == 1 :
     valor = hotdog * quantidade
     print(f"O valor a ser pago é:R${valor:.2f}")
-elif quantidade<0 :
-    print("Quantidade Inválida")
 elif codigo == 2 :
     valor = xsalada * quantidade
     print(f"O valor a ser pago é:R${valor:.2f}")
