@@ -18,11 +18,11 @@ salario = float(input("Qual o seu salário? "))
 if salario>=0 and salario<=2000.00:
     print(f"Você está isento do imposto")
 elif salario>=2000.01 and salario<=3000.00:
-    salario = (salario-2000)*0.08
-    print(f"O seu imposto é igual a R$ {salario:.2f}")
+    imposto = (salario-2000)*0.08
+    print(f"O seu imposto é igual a R$ {imposto:.2f}")
 elif salario>=3000.01 and salario<=4500.00:
-    salario = ((salario-3000)*0.18)+80
-    print(f"O seu imposto é igual a R$ {salario:.2f}")
+    imposto = ((salario-3000)*0.18)+80
+    print(f"O seu imposto é igual a R$ {imposto:.2f}")
 else:
-    salario = ((salario-4500)*0.28)+350
-    print(f"O seu imposto é igual a R$ {salario:.2f}")
+    imposto = ((salario-4500)*0.28)+350
+    print(f"O seu imposto é igual a R$ {imposto:.2f}")
