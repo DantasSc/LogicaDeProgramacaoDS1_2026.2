@@ -13,7 +13,7 @@ total_inscritos = 0
 def inscrever_aluno(quantidade):
     global total_inscritos
     total_inscritos += quantidade
-print(f"Antes:{total_inscritos} ")
 quantidade= int(input("Digite a quantidade de alunos que você deseja inscrever: "))
+print(f"Antes:{total_inscritos} ")
 inscrever_aluno(quantidade)
 print(f"Depois:{total_inscritos}")
