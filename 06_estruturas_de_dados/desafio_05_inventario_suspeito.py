@@ -12,3 +12,28 @@ SUA MISSÃO:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+itens = [
+    "Microscópio",
+    "Proveta",
+    "Termômetro",
+    "Microscópio",
+    "Béquer",
+    "Proveta",
+    "Luvas",
+    "Termômetro",
+    "Béquer"
+]
+lista=set(itens)
+laboratorio = {
+    "Microscópio": 5,
+    "Proveta": 12,
+    "Termômetro": 3,
+    "Béquer": 8,
+    "Luvas": 20
+}
+print(lista)
+print(f"Quantidade de Microscópios:{laboratorio.get("Microscópio")}")
+print(f"Quantidade de Provetas:{laboratorio.get("Proveta")}")
+print(f"Quantidade de Termômetros:{laboratorio.get("Termômetro")}")
+print(f"Quantidade de Béquers:{laboratorio.get("Béquer")}")
+print(f"Quantidade de Luvas:{laboratorio.get("Luvas")}")
